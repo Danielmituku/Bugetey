@@ -31,6 +31,7 @@ body{
     position: relative;
 }
 .budget{
+    padding: 20px;
     position: absolute;
     width: 350px;
     top: 50%;
@@ -51,6 +52,21 @@ body{
     margin-bottom: 25px;
     letter-spacing: 25px;
 }
-.budget__income, .budget__expensse{
-    
+.budget__income{
+    background-color: #ff5049;
+    height: 50px;
+    padding: 10px 10px 10px;
+    margin: 20px;
+}
+ .budget__expensses {
+    background-color: #49bcff;
+    height: 50px;
+    padding: 10px 10px 10px;
+    margin: 20px;
+ }
+ .bottom{
+    height: 30vh;    
+    position: relative;
+    text-align: center;
+    padding: 10px;
 }
