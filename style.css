@@ -24,7 +24,7 @@ body{
 .red-focus:focus{ border: 1px solid #ff5049 !important;}
 
 .top{
-    height: 30vh;
+    height: 50vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
     background-size: cover;
     background-position: center;
@@ -50,19 +50,25 @@ body{
     font-size: 46px;
     text-align: center;
     margin-bottom: 25px;
-    letter-spacing: 25px;
+    letter-spacing: 5px;
 }
 .budget__income{
     background-color: #ff5049;
     height: 50px;
     padding: 10px 10px 10px;
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
  .budget__expensses {
     background-color: #49bcff;
     height: 50px;
     padding: 10px 10px 10px;
     margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
  }
  .bottom{
     height: 30vh;    
